@@ -1,0 +1,27 @@
+.top-bar {
+    z-index: 2;
+    height: 75px;
+    width: 100%;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow:         0px 4px 5px 0px rgba(50, 50, 50, 0.80);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(50, 50, 50, 0.80);
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+#contact * {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact a {
+    margin: 5px;
+}

@@ -1,0 +1,38 @@
+.App {
+    position: absolute;
+    top: 75px;
+    padding: 0px 15px;
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    background-color: orange;
+    color: black;
+    justify-content: center;
+}
+
+.fill {
+    height: calc(100vh - 75px);
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image > img {
+    width: 60%;
+    object-fit: contain;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text > * {
+    padding: 15px;
+}
+
